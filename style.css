@@ -346,12 +346,14 @@ footer {
   }
 }
 body::before {
-content: "";
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .hero-section {
   position: relative;
   background: linear-gradient(135deg, #FF9900 0%, #000000 100%);
@@ -362,6 +364,7 @@ height: 100%;
   align-items: center;
   color: #fff;
 }
+
 
 .cta-button {
   background: linear-gradient(to right, #ffcc00, #ff9900);
